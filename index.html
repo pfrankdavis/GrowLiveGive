@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GrowLiveGive</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
+</head>
+<!-- NAV BAR -->
+<body>
+  <div class="header">
+      <img 
+        class="header-img"
+        src="photos/Grow-Live-Give-Logo.png"
+        alt="grow live give logo">
+      <div class="nav-bar">
+        <p class="nav-li"><a class="nav-link" href="#about-us">About Us</a></p>
+        <p class="nav-li"><a class="nav-link" href="#our-team">Our Team</a></p>
+        <p class="nav-li"><a class="nav-link" href="#how-it-works">How it Works</a></p>
+    </div>
+  </div>
+  <!-- BODY -->
+  <div class="body">
+    <body>
+      <div class="welcome">
+        <div class="welcome-content" id="slideshow">
+          <img class="welcome-logo" src="photos/Grow-Live-Give-Logo.png" alt="grow live give logo">
+          <!-- <img class="mySlides" src="photos/Jim-Davis.jpeg" alt="jim davis"> -->
+          <!-- <img class="mySlides" src="photos/puzzle-pieces.jpeg" alt="puzzle pieces"> -->
+        </div>
+        <div class="open-container-background">
+          <div id="open-container">
+            <h2>Start planning for your future today!</h2>
+            <a href="#" class="button" id="open-modal">Schedule an Introduction</a>
+            <a href="https://brokercheck.finra.org/" class="link">FINRA BROKERCHECK</a>
+            <div>
+              <div class="media-link"><a class="icon" href="https://www.linkedin.com/in/jim-davis-1b60b528"><i class="fab fa-linkedin"></i></a></div>
+              <div class="media-link"><a class="icon" href="https://twitter.com/JimDavisGLG"><i class="fab fa-twitter-square"></i></a></div>
+            </div>
+            
+          </div>
+          </div>
+        </div>
+      </div>
+      <section class="section" id="about-us">
+        <h2 class="subheading">About Us</h2>
+        <p>Our <b>Grow Live Give</b> approach reflects our commitment to independent investment and planning advice. Our focus is to help our clients both financially and personally:</p>
+        <ul>
+          <li class="about-ul"><b><em>Grow</em></b> with a commitment to active stewardship</li>
+          <li class="about-ul"><b><em>Live</em></b> with purpose each day </li>
+          <li class="about-ul"><b><em>Give</em></b> intentionally, and with an open hand</li>
+        </ul>
+        <p>The Grow Live Give logo being visually circular represents the ongoing nature of growing, living and giving throughout each phase of life and not simply in sequence. We recognize that our client’s lives should have impact while they are living and also be fulfilled in their estate plan.</p>
+        <p>We combine efficiency, through technology, with a commitment to understanding our client’s personal goals and dreams.  We believe financial planning and investment management do not have to be overwhelming or intimidating.</p>
+        <p>We inspire our clients to be good stewards of their finances while encouraging generosity.</p>
+        <p>Effective financial planning and investment management programs can help you make better decisions with money, live within your means and fully prepare for a brighter future.   Let us help you understand your financial opportunities and move from uncertainty to confidence.</p>
+        <p>We invite you on a journey of Growing, Living and Giving.</p>
+      </section>
+      <section class="section" id="our-team">
+        <h2 class="subheading">Our Team</h2>
+        <img class="team-img" src="photos/Jim-Davis.jpeg"
+          alt="jim davis"
+             >
+        <h3>Jim Davis, <em>Financial Advisor</em></h3>
+        <p>As you are searching for a Financial Advisor to assist you, I thought you ought to know why I humbly, yet confidently, want to be your choice!</p>
+        <ul>
+          <li class="team-ul">Although I left the education industry and have been working as an independent financial advisor for over 15 years, I still enjoy teaching clients about investments.  My goal is to make sure you understand options in order to make wise decisions with your money.</li>
+          <li class="team-ul">Independence as an advisor adds reassuring objectivity.  This means, in part, that we do not have any of our own investments to sell or sales quotas to meet. I, along with our investment research team, search the marketplace to find appropriate investments to use in client account management. That means I am free to have the best interest of each and every client in mind. </li>
+          <li class="team-ul">I have a team in place to assist me in serving you. Whether your need is for individual/family financial planning, a retirement plan for your company or a complex estate plan, we can service your needs.  </li>
+          <li class="team-ul">I love puzzles! I believe the basics of financial planning includes taking all of your financial “puzzle pieces” and fitting them together to see if any pieces are missing or need to be reconfigured. I help you plan with the long term in mind and we do so in layman’s terms. I utilize a user-friendly financial planning program called RetireUp to assist with this. The better I understand you and the better you comprehend your needs and goals, the stronger our relationship will become. Relationship is the key!</li>
+          <li class="team-ul">Nobody has arrived at perfection yet. Everyone can improve. That’s why we continue to <b>Grow Live Give</b>.</li>
+        </ul>     
+      </section>
+      <section class="section" id="how-it-works">
+        <h2 class="subheading">How it Works</h2>
+        <iframe      
+          src="https://www.youtube.com/embed/Fistm2uxOlE"
+           id="video"
+           allowfullscreen
+         ></iframe>
+      </section>
+    </body>
+  </div>
+  <div class="modal-bg">
+    <div class="modal-content">
+      <iframe name="hiddenFrame" class="hide"></iframe>
+      <p class="close">+</p>
+      <img src="photos/Grow-Live-Give-Logo.png" class="modal-img">
+      <form action="https://formspree.io/f/mleaeypb" method="POST" id="modal-form" target="#modal-form">
+        <input class="modal-input" type="text" name="First-Name" placeholder="First Name" required>
+        <input class="modal-input" type="text" name="Last-Name" placeholder="Last Name" required>
+        <input class="modal-input" type="email" name="Email" placeholder="Email Address" required>
+        <input class="modal-input" type="text" name="Subject" placeholder="Subject" required>
+        <textarea name="Message" form="modal-form" id="message" cols="30" rows="10" name="message" placeholder="Message"></textarea>
+        <input class="button" id="submit" type="submit">
+      </form>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
