@@ -27,7 +27,7 @@ html {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100px;
+  height: 75px;
   font-family: Verdana;
   font-size: 20px;
   background: linear-gradient(180deg, rgba(0, 42, 83, 0.9), rgba(2, 52, 153, 0.9));
@@ -50,7 +50,7 @@ html {
   color: rgb(112, 112, 112);
 }
 .header-img {
-  width: 98px;
+  width: 70px;
   margin: auto auto auto 15px;
 }
 
@@ -61,27 +61,31 @@ body {
   font-size: 15px;
   width: 100%;
   background: linear-gradient(180deg, rgba(158, 158, 158, .5), rgba(225, 225, 225, .5));
-  margin: 100px 0px;
+  margin: 75px 0px;
   position: unset;
   align-items: center;
 }
 .welcome {
   display: flex;
-  height: 95vh;
+  height: 90vh;
   width: 99.25vw;
 }
 .welcome-content {
   width: 50vw;
   background:rgba(158, 158, 158, .5);
+  position: relative;
 }
-.welcome-logo {
+.slides {
   width: 100%;
   padding-top: 75px;
 }
-.open-container-background {
-  background-image: url(photos/puzzle-pieces.jpeg);
+.welcome-logo {
   width: 50%;
-  display: flex;
+  padding-top: 75px;
+}
+.open-container-background {
+  width: 50%;
+  background-repeat: no-repeat;
 }
 #open-container {
   display: grid;
@@ -91,20 +95,17 @@ body {
   margin: auto;
   background: rgba(225, 225, 225, .75);
   border-radius: 3px;
-  padding: 10px;
+  height: 100%
 }
 .button {
-  text-decoration: none;
   background: rgba(0, 0, 0, .8);
   color: rgb(225, 225, 225);
   padding: 10px;
-  border-radius: 3px;
+  border-radius: 1px;
   font-size: 25px;
-  width: auto;
   margin: 12.5px 0px;
   padding: auto;
   align-self: center;
-  transition: 0.5s ease-in-out;
 }
 .button:hover {
   background: linear-gradient(150deg, rgba(0, 42, 83, 0.9), rgba(2, 52, 153, 0.9));
@@ -131,8 +132,7 @@ body {
   cursor: pointer;
 }
 .media-link:hover {
-  font-size: 38px;
-  transition: 0.5s;
+  color:rgba(2, 52, 153, 0.9);
 }
 .icon {
   text-decoration: none;
