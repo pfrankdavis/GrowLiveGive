@@ -30,7 +30,7 @@ html {
   height: 100px;
   font-family: Verdana;
   font-size: 20px;
-  background: linear-gradient(180deg, rgba(0, 64, 128, .90), rgba(31, 97, 230, 0.9));
+  background: linear-gradient(180deg, rgba(0, 42, 83, 0.9), rgba(2, 52, 153, 0.9));
   display: flex;
   align-items: flex-end;
 }
@@ -44,10 +44,10 @@ html {
 }
 .nav-link {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(225, 225, 225);
 }
 .nav-link:hover {
-  color: rgb(225, 225, 225);
+  color: rgb(112, 112, 112);
 }
 .header-img {
   width: 98px;
@@ -107,9 +107,8 @@ body {
   transition: 0.5s ease-in-out;
 }
 .button:hover {
-  background: linear-gradient(150deg, rgba(0, 64, 128, .90), rgba(31, 97, 230, 0.9));
-  font-size: 26px;
-  transition: 0.5s ease-in-out;
+  background: linear-gradient(150deg, rgba(0, 42, 83, 0.9), rgba(2, 52, 153, 0.9));
+  /* transition: 0.25s ease-in; */
 }
 .link {
   text-decoration: none;
@@ -121,7 +120,7 @@ body {
 
 }
 .link:hover {
-  font-weight: bold;
+  color:rgba(2, 52, 153, 0.9);
 }
 .media-link {
   font-size: 35px;
