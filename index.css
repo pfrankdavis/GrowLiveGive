@@ -1,7 +1,6 @@
 html {
-  scroll-padding-top: 100px;
+  scroll-padding-top: 75px;
   width: 100;
-  position: unset;
 }
 
 /* scrollbar */
@@ -27,7 +26,7 @@ html {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100px;
+  height: 75px;
   font-family: Verdana;
   font-size: 20px;
   background: linear-gradient(180deg, rgba(0, 42, 83, 0.9), rgba(2, 52, 153, 0.9));
@@ -50,38 +49,36 @@ html {
   color: rgb(112, 112, 112);
 }
 .header-img {
-  width: 98px;
+  width: 70px;
   margin: auto auto auto 15px;
 }
 
-/*body*/
+/*welcome*/
 
 body {
   font-family: Verdana;
-  font-size: 15px;
+  font-size: 19px;
   width: 100%;
   background: linear-gradient(180deg, rgba(158, 158, 158, .5), rgba(225, 225, 225, .5));
-  margin: 100px 0px;
+  margin: 75px 0px;
   position: unset;
   align-items: center;
 }
 .welcome {
   display: flex;
-  height: 95vh;
+  height: 90vh;
   width: 99.25vw;
 }
 .welcome-content {
   width: 50vw;
-  background:rgba(158, 158, 158, .5);
+}
+.slides {
+  height: 100%;
+  overflow-x: hidden;
 }
 .welcome-logo {
-  width: 100%;
-  padding-top: 75px;
-}
-.open-container-background {
-  background-image: url(photos/puzzle-pieces.jpeg);
   width: 50%;
-  display: flex;
+  padding-top: 75px;
 }
 #open-container {
   display: grid;
@@ -89,26 +86,24 @@ body {
   grid-template-rows: auto auto auto;
   justify-items: center;
   margin: auto;
-  background: rgba(225, 225, 225, .75);
+  background: rgba(225, 225, 225, 1.0);
   border-radius: 3px;
-  padding: 10px;
+  height: 100%
 }
 .button {
-  text-decoration: none;
   background: rgba(0, 0, 0, .8);
   color: rgb(225, 225, 225);
   padding: 10px;
-  border-radius: 3px;
+  border-radius: 1px;
   font-size: 25px;
-  width: auto;
   margin: 12.5px 0px;
   padding: auto;
   align-self: center;
-  transition: 0.5s ease-in-out;
+  cursor: pointer;
 }
 .button:hover {
   background: linear-gradient(150deg, rgba(0, 42, 83, 0.9), rgba(2, 52, 153, 0.9));
-  /* transition: 0.25s ease-in; */
+  transition: 0.25s ease-in-out;
 }
 .link {
   text-decoration: none;
@@ -124,33 +119,54 @@ body {
 }
 .media-link {
   font-size: 35px;
-  text-decoration: none;
   text-align: center;
   display: inline;
   padding: 5px;
   cursor: pointer;
 }
-.media-link:hover {
-  font-size: 38px;
-  transition: 0.5s;
-}
 .icon {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.9);
 }
-.section {
-  background: rgba(158, 158, 158, .3);
-  padding: 0px 125px;
-  border: solid;
-  border-radius: 3px;
-  margin: 25px 100px;
-  overflow-x: hidden;
-  border-style: ridge;
-}
-.subheading {
-  font-family: inherit;
-  font-size: 25px;
+
+/* info */
+
+.section-header {
   text-align: center;
+  font-family: inherit;
+  font-size: 50px;
+}
+.section {
+  background: rgba(158, 158, 158, .15);
+  width: 100vw;
+  height: 90vh;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+}
+.about-img {
+  width: 30%;
+  text-align: center;
+}
+.about-content {
+  width: 70%;
+  padding: 5% 3%;
+  background: rgba(158, 158, 158, .25);
+  border-radius: 10%;
+}
+.section-img {
+  width: 30%;
+  text-align: center;
+}
+.section-content {
+  width: 70%;
+  padding: 5% 3%;
+  background: rgba(158, 158, 158, .25);
+  border-radius: 10%;
+}
+.about-logo {
+  width: 80%;
+  padding: 50% 0px;
 }
 .about-ul {
   list-style: none;
@@ -160,15 +176,14 @@ body {
   padding: 3px;
 }
 .team-img {
-  width: 40%;
-  margin: auto;
-  display: flex;
+  width: 80%;
+  padding: 50px 0px;
 }
-iframe {
+.iframe-reg {
   height: 500px;
   width: 800px;
   display: flex;
-  margin: 25px auto 75px auto;
+  margin: 75px auto 75px auto;
 }
 
 /* modal */
