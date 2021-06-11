@@ -13,12 +13,29 @@ function carousel() {
   setTimeout(carousel, 6000);
 }
 
-document.getElementById('open-modal').addEventListener('click', function() {
-    document.querySelector('.modal-bg').style.display = 'flex';
-    document.querySelector('body').style.overflow = 'hidden';
+document
+  .getElementById('open-modal')
+  .addEventListener('click', 
+    function() {
+      document
+        .querySelector('.modal-bg')
+        .style
+        .display = 'flex';
+      document
+        .querySelector('body')
+        .style.overflow = 'hidden';
   });
   
-document.querySelector('.close').addEventListener('click', function() {
-  document.querySelector('.modal-bg').style.display = 'none';
-  document.querySelector('body').style.overflow = 'unset';
+document
+  .querySelector('.close')
+  .addEventListener('click', 
+    function() {
+      document
+        .querySelector('.modal-bg')
+        .style
+        .display = 'none';
+      document
+      .querySelector('body')
+      .style
+      .overflow = 'unset';
 });
